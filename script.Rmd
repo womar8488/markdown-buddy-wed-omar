@@ -1,0 +1,21 @@
+---
+title: "BDA400 Assignment 1 Analysis Script"
+author: "Wed Omar"
+output: html_document
+---
+
+# Purpose
+This R Markdown document documents the foundational environment verification and sample analytical code required for BDA400 Assignment 1.
+
+## Inputs
+* **Environment:** Base R version 4.6.1 ("Happy Hop") and RStudio Desktop.
+* **Project Structure:** Managed via the `.Rproj` project root directory.
+
+## Execution & Verification
+
+```{r setup-verification, echo=TRUE}
+# Verify current working directory
+getwd()
+
+# Display R session and system configuration details
+sessionInfo()
